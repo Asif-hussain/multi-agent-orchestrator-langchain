@@ -1,0 +1,309 @@
+NETWORK CONFIGURATION AND SETUP GUIDE
+
+CORPORATE NETWORK OVERVIEW
+
+Network Architecture
+Our company network consists of:
+- Primary corporate network: 10.0.0.0/8
+- Guest network: 172.16.0.0/16
+- VPN network: 192.168.0.0/16
+- DMZ for public-facing services: Separate isolated network
+
+Network Segmentation
+- Engineering VLAN: 10.1.0.0/16
+- Sales/Marketing VLAN: 10.2.0.0/16
+- Finance VLAN: 10.3.0.0/16
+- HR VLAN: 10.4.0.0/16
+- Guest VLAN: 172.16.1.0/24
+
+WIRELESS NETWORK SETUP
+
+Available WiFi Networks
+
+CompanySecure (Employee Network)
+- SSID: CompanySecure
+- Security: WPA3-Enterprise
+- Authentication: 802.1X with company credentials
+- Speed: Up to 1 Gbps
+- Auto-connects for managed devices
+
+CompanyGuest (Guest Network)
+- SSID: CompanyGuest
+- Security: WPA2-PSK
+- Password: Changes weekly (available from reception)
+- Speed: Up to 100 Mbps
+- Isolated from corporate resources
+- Internet-only access
+
+Connecting to CompanySecure
+
+Windows:
+1. Click WiFi icon in system tray
+2. Select "CompanySecure"
+3. Enter username: firstname.lastname@company.com
+4. Enter your network password
+5. Accept certificate if prompted
+6. Connection established
+
+macOS:
+1. Click WiFi icon in menu bar
+2. Select "CompanySecure"
+3. Enter username and password
+4. Accept certificate prompt
+5. Connection established
+
+Mobile Devices:
+1. Open WiFi settings
+2. Select "CompanySecure"
+3. Choose "EAP-PEAP" as authentication method
+4. Enter company credentials
+5. Trust certificate
+6. Connect
+
+ETHERNET CONNECTIONS
+
+Desk Network Ports
+- All desk locations have active ethernet ports
+- Speeds: 1 Gbps standard, 10 Gbps for engineering
+- Ports are color-coded: Blue = corporate, Yellow = guest
+- Auto-configuration via DHCP
+- No manual IP configuration needed
+
+Conference Room Networks
+- Wired and wireless available in all conference rooms
+- Connect to room display via HDMI or wireless casting
+- Guest presentation mode available
+- WiFi: CompanyMeeting-[RoomName]
+
+VPN CONFIGURATION
+
+Remote Access VPN
+
+Cisco AnyConnect Setup
+1. Install AnyConnect from Software Center
+2. Launch application
+3. Enter VPN gateway: vpn.company.com
+4. Authenticate with company credentials
+5. Complete 2FA verification
+6. VPN connected
+
+Split Tunnel Configuration
+- Company resources routed through VPN
+- Personal internet traffic routes directly
+- Preserves bandwidth for company use
+- Configuration managed automatically
+
+VPN Policies
+- Maximum session duration: 12 hours
+- Auto-disconnect after 30 minutes idle
+- Required for accessing:
+  * Internal file shares
+  * Company databases
+  * Development environments
+  * Admin tools
+
+Site-to-Site VPN
+- Connects branch offices to headquarters
+- Always-on encrypted tunnels
+- Managed by network team
+- No end-user configuration required
+
+NETWORK STORAGE
+
+File Shares (SMB/CIFS)
+
+Accessing Network Drives
+Windows:
+1. Open File Explorer
+2. Map network drive
+3. Path: \\fileserver\sharename
+4. Use company credentials
+5. Check "Reconnect at sign-in"
+
+macOS:
+1. Open Finder
+2. Go > Connect to Server
+3. smb://fileserver.company.com/sharename
+4. Authenticate with credentials
+5. Add to login items for auto-mount
+
+Common Network Shares
+- \\fileserver\home - Personal home directories
+- \\fileserver\department - Departmental shared folders
+- \\fileserver\projects - Project collaboration spaces
+- \\fileserver\archive - Long-term storage
+
+Permissions
+- Read-only: Can view files, cannot modify
+- Modify: Can add, edit, delete files
+- Full control: Modify plus change permissions
+- Request access changes through IT portal
+
+NETWORK PRINTING
+
+Print Server: print.company.com
+
+Adding Network Printers
+1. Open Software Center
+2. Navigate to Printers section
+3. Find printer by location or name
+4. Click Install
+5. Printer added automatically
+
+Printer Naming Convention
+- Format: [Location]-[Type]-[Number]
+- Example: 2ndFloor-Color-01
+- Types: Color, BW (black/white), Large (wide format)
+
+Print Authentication
+- Swipe badge at printer to release print jobs
+- Jobs held for 24 hours
+- Unclaimed jobs auto-deleted for security
+- Pull printing available at any company printer
+
+NETWORK TROUBLESHOOTING
+
+Common Issues
+
+Cannot Access Network Resources
+1. Verify network connection (check WiFi/Ethernet icon)
+2. Ping test: ping fileserver.company.com
+3. Check VPN if working remotely
+4. Verify credentials are current
+5. Check if resource is online (ask IT)
+
+Slow Network Performance
+1. Run speed test: speedtest.company.com
+2. Check bandwidth usage in Task Manager
+3. Disconnect from VPN if not needed
+4. Try wired connection instead of WiFi
+5. Report persistent issues to IT
+
+DNS Issues
+Primary DNS: 10.0.1.10
+Secondary DNS: 10.0.1.11
+
+If DNS not resolving:
+1. Flush DNS cache: ipconfig /flushdns (Windows) or sudo killall -HUP mDNSResponder (macOS)
+2. Verify DNS settings point to company servers
+3. Try accessing resource by IP address
+4. Contact IT if issue persists
+
+NETWORK SECURITY
+
+Firewall Rules
+- Outbound traffic generally allowed
+- Inbound traffic blocked except established connections
+- Exceptions require security approval
+- Port-based restrictions for sensitive services
+
+Intrusion Detection
+- Network traffic monitored for threats
+- Automated blocking of malicious IPs
+- Security alerts sent to IT Security team
+- User notifications for policy violations
+
+Acceptable Use Policy
+Prohibited network activities:
+- Torrenting or P2P file sharing
+- Streaming non-business content during work hours
+- Accessing inappropriate websites
+- Port scanning or network reconnaissance
+- Running unauthorized servers
+- Cryptocurrency mining
+- Circumventing security controls
+
+BANDWIDTH MANAGEMENT
+
+QoS (Quality of Service) Priorities
+1. VoIP and video conferencing (highest)
+2. Critical business applications
+3. General web browsing and email
+4. File downloads and transfers
+5. Streaming media (lowest)
+
+Bandwidth Limits
+- Standard users: No hard limits
+- Guest network: 10 Mbps per device
+- Large file transfers: Scheduled during off-hours
+- Video streaming: May be throttled during peak hours (9 AM - 5 PM)
+
+NETWORK MONITORING
+
+Self-Service Tools
+- Network status: status.company.com
+- Speed test: speedtest.company.com
+- Connection diagnostics: Run built-in troubleshooter
+
+Service Status Dashboard
+Check current status of:
+- Internet connectivity
+- VPN gateways
+- File servers
+- Email servers
+- Core applications
+
+Planned Maintenance
+- Scheduled maintenance windows: Saturdays 2 AM - 6 AM EST
+- Notifications sent 72 hours in advance
+- Emergency maintenance: As needed with minimal notice
+- Status updates posted to #it-announcements
+
+MOBILE NETWORK ACCESS
+
+Cellular Backup
+Company-issued phones have:
+- Unlimited data plans
+- Hotspot capability (up to 50 GB/month)
+- International roaming (pre-approval required)
+- Priority support
+
+Using Phone as Hotspot
+1. Enable hotspot in phone settings
+2. Connect laptop to phone's WiFi
+3. Connect to VPN for secure access
+4. Monitor data usage
+5. Not for routine use - emergencies only
+
+ADVANCED NETWORKING
+
+SSH Access
+- Bastion host: ssh.company.com
+- Key-based authentication required
+- Session logging enabled
+- Requires approval for access
+
+Developer Network Tools
+- Postman for API testing
+- Wireshark (requires approval)
+- VirtualBox/VMware for virtual networks
+- Docker networking configured automatically
+
+API Access
+- Internal APIs: api.company.com
+- Authentication: OAuth 2.0 tokens
+- Rate limiting: 1000 requests/hour
+- Documentation: api.company.com/docs
+
+SUPPORT AND ESCALATION
+
+Network Issues
+- Level 1: IT Help Desk (general connectivity)
+- Level 2: Network team (advanced troubleshooting)
+- Level 3: Network engineering (infrastructure issues)
+
+Emergency Network Outages
+- Report immediately: 1-800-NETHELP
+- Check status page first
+- Provide: Location, number of users affected, error messages
+- Use backup internet if available
+
+Network Access Requests
+Submit through IT portal:
+- New file share access
+- Firewall exceptions
+- VPN access for contractors
+- Network port activations
+- Bandwidth increase requests
+
+For questions not covered here, contact Network Operations team through the IT portal or #network-support channel.

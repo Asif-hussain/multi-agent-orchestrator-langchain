@@ -1,0 +1,318 @@
+CORPORATE EXPENSE REIMBURSEMENT POLICY
+
+OVERVIEW
+
+This policy outlines eligible business expenses, approval requirements, and reimbursement procedures. All employees must comply with this policy when incurring business expenses on behalf of the company.
+
+GENERAL PRINCIPLES
+
+Business Purpose Requirement
+All expenses must:
+- Have a clear business purpose
+- Be necessary and reasonable
+- Be properly documented
+- Comply with company policy
+- Be submitted within 60 days of incurrence
+
+Approval Requirements
+- Expenses under $500: Manager approval
+- Expenses $500-$2,000: Director approval
+- Expenses over $2,000: VP approval
+- All exceptions require CFO approval
+
+TRAVEL EXPENSES
+
+Airfare
+
+Booking Requirements:
+- Book through corporate travel portal (Concur Travel)
+- Economy class for flights under 6 hours
+- Premium economy allowed for flights 6+ hours with manager approval
+- Business class requires VP approval
+- First class not reimbursed except C-suite
+
+Advance Booking:
+- Book at least 14 days in advance when possible
+- Last-minute bookings (under 7 days) require explanation
+- Unused tickets should be credited for future use
+- Cancellation fees may not be reimbursed without justification
+
+Baggage Fees:
+- One checked bag reimbursed for trips 3+ days
+- Additional bags require justification
+- Overweight fees generally not reimbursed
+- Sports equipment for company events approved
+
+Lodging
+
+Hotel Guidelines:
+- Book through corporate travel portal
+- Standard rate limit: $200/night in major cities, $150/night elsewhere
+- Extended stays (7+ nights): Negotiate weekly rate or consider corporate housing
+- Preferred hotel chains: Marriott, Hilton, Hyatt (corporate rates available)
+- Direct billing available for approved extended assignments
+
+Incidental Charges:
+- WiFi: Reimbursed if not complimentary
+- Parking: Reimbursed with receipts
+- Minibar: Not reimbursed
+- Movies/entertainment: Not reimbursed
+- Resort fees: Reimbursed if unavoidable
+- Early check-in/late checkout: Not reimbursed without business justification
+
+Alternative Accommodations:
+- Airbnb/VRBO allowed for extended stays (7+ days) with pre-approval
+- Must provide itemized receipt
+- Should not exceed hotel rate limit
+- Appropriate for business use (not vacation rentals)
+
+Ground Transportation
+
+Rideshare/Taxi:
+- Uber/Lyft preferred for business travel
+- Taxis acceptable when rideshare unavailable
+- Airport transfers fully reimbursed
+- UberX or equivalent standard (UberBlack requires justification)
+- Submit itemized receipt showing trip details
+
+Rental Cars:
+- Compact or mid-size vehicles (standard rate)
+- Full-size or SUV requires justification (multiple passengers, equipment)
+- Book through corporate travel portal for insurance coverage
+- Decline rental agency insurance (covered by corporate policy)
+- Fuel: Fill tank before return or accept prepaid fuel option
+- Tolls and parking: Reimbursed with receipts
+- Luxury vehicles not reimbursed
+
+Personal Vehicle Mileage:
+- Reimbursement rate: IRS standard mileage rate (currently $0.67/mile for 2024)
+- Submit mileage log with business purpose
+- Parking and tolls reimbursed separately with receipts
+- Maintenance and insurance not separately reimbursed
+
+Public Transportation:
+- Fully reimbursed (trains, subways, buses)
+- Submit receipts or monthly pass documentation
+- Corporate transit cards available for frequent travelers
+
+Meals and Entertainment
+
+Per Diem Rates
+
+Meals while traveling:
+- Breakfast: $15
+- Lunch: $20
+- Dinner: $40
+- Daily total: $75
+
+Per diem policies:
+- Receipts required for meals over $25
+- Alcohol limited to $25/day
+- Cannot claim per diem if meals provided at conference/event
+- Cannot claim per diem for meals with clients (use entertainment budget)
+
+Client Entertainment:
+- Must have clear business purpose
+- Document attendees and business relationship
+- Manager pre-approval for expenses over $200
+- Reasonable and customary amounts
+- Submit itemized receipt (not credit card slip)
+
+Team Meals:
+- Approved for team-building, working sessions, or celebrations
+- Manager approval required
+- $30/person limit for team lunches
+- $50/person limit for team dinners
+- Must include business purpose in expense report
+
+Conference and Event Expenses
+
+Registration Fees:
+- Pre-approval required from manager
+- Submit invoice and proof of payment
+- Cancellation fees may not be reimbursed
+
+Professional Development:
+- Courses, certifications, conferences up to $2,000/year
+- Submit course description and business justification
+- Reimbursed upon proof of completion
+- Materials and textbooks included
+
+Trade Shows:
+- Booth rental and materials approved with VP approval
+- Marketing/promotional items approved in advance
+- Client entertainment at events follows standard entertainment policy
+
+OFFICE AND EQUIPMENT EXPENSES
+
+Office Supplies:
+- Pens, paper, notebooks: Up to $50/month
+- Order through office supply portal when possible
+- Specialized supplies require manager approval
+
+Technology Equipment:
+- Accessories (mouse, keyboard, headset): Up to $100 with manager approval
+- Monitors: Through IT department only
+- Personal laptop: Not reimbursed
+- Software licenses: Through IT approval process
+- Mobile phone accessories: Up to $50
+
+Home Office (Remote Workers):
+- One-time setup allowance: $500
+- Desk, chair, lighting, accessories
+- Internet reimbursement: Up to $75/month
+- Annual refresh budget: $200
+- Requires remote work agreement
+
+TELECOMMUNICATIONS
+
+Mobile Phone:
+- Company-issued phones: All expenses covered
+- BYOD (bring your own device): $75/month stipend
+- International roaming: Pre-approval required
+- Equipment upgrades: Every 24 months
+
+Internet Service:
+- Remote workers: Up to $75/month
+- Must be business necessity
+- Submit monthly bill with payment confirmation
+
+MISCELLANEOUS EXPENSES
+
+Parking:
+- Business meetings: Fully reimbursed
+- Office parking: Not reimbursed (use employee lot)
+- Client site parking: Reimbursed
+- Airport parking: Short-term for trips under 3 days, long-term for 3+ days
+
+Business Materials:
+- Books related to job function: Up to $100/year
+- Professional subscriptions: Pre-approved
+- Industry publications: Department budget
+
+Shipping and Postage:
+- Business mailings: Fully reimbursed
+- Personal shipments: Not reimbursed
+- Use corporate shipping accounts when available
+
+REIMBURSEMENT PROCESS
+
+Submitting Expense Reports
+
+Timing:
+- Submit within 60 days of expense date
+- Expenses over 60 days may not be reimbursed
+- Submit monthly for ongoing expenses
+- Final expense report due within 30 days of employee departure
+
+Required Documentation:
+- Itemized receipt (credit card slip insufficient)
+- Business purpose description
+- Date and location
+- Attendees (for meals/entertainment)
+- Project/client code if applicable
+
+Expense Report System:
+1. Log into Concur Expense at concur.company.com
+2. Create new expense report
+3. Upload receipt images
+4. Categorize each expense
+5. Add business purpose
+6. Submit for approval
+7. Track approval status
+8. Reimbursement via direct deposit within 10 business days
+
+Credit Cards
+
+Corporate Credit Cards:
+- Available for employees with frequent business expenses
+- Apply through finance department
+- Personal liability for charges
+- Payment due upon receipt of statement
+- Expense report must be submitted before payment
+- Late submission may result in card suspension
+
+Personal Credit Cards:
+- Use for business expenses if no corporate card
+- Submit expense report for reimbursement
+- Reimbursement processed within 10 business days
+- Company not responsible for interest charges
+
+NON-REIMBURSABLE EXPENSES
+
+The following are NOT reimbursed:
+- Commuting to regular office location
+- Personal entertainment (movies, sporting events)
+- Minibar charges
+- Personal grooming (haircuts, spa services)
+- Gym memberships or fitness expenses
+- Clothing (except required safety gear)
+- Fines and penalties (parking tickets, traffic violations)
+- Personal losses or theft
+- Childcare or pet care
+- Spouse/partner travel expenses (unless approved in advance for specific events)
+
+POLICY VIOLATIONS
+
+Consequences:
+- First violation: Warning and required policy review
+- Repeated violations: Denial of reimbursement
+- Fraudulent expenses: Termination and potential legal action
+
+Fraudulent Activity:
+- Submitting false receipts
+- Claiming personal expenses as business
+- Duplicate reimbursement requests
+- Inflating expense amounts
+
+INTERNATIONAL TRAVEL
+
+Additional Requirements:
+- Pre-approval required 30 days in advance
+- Passport and visa: Employee responsibility, costs reimbursed
+- Travel insurance: Provided by company
+- Currency exchange: Use corporate card for best rates
+- VAT receipts: Obtain for reclaim purposes
+
+Per Diem:
+- Follows U.S. State Department rates by country
+- Published at https://aoprals.state.gov/web920/per_diem.asp
+- Includes lodging and meals
+- Receipts required over $75
+
+EXCEPTIONS AND SPECIAL CIRCUMSTANCES
+
+Emergency Travel:
+- Family emergency travel: Manager discretion
+- Medical emergency: VP approval for exception
+- Natural disaster/safety: CFO approval
+
+Extended Assignments:
+- Relocation expenses: Separate policy
+- Temporary assignments (30+ days): Special per diem rates
+- Corporate housing arranged by HR
+
+Client-Billable Expenses:
+- Follow client contract terms
+- May differ from standard policy
+- Document billable expenses separately
+- Submit per client billing requirements
+
+CONTACT INFORMATION
+
+Questions and Support:
+- Expense Policy: finance@company.com
+- Concur Technical Support: 1-800-CONCUR-1
+- Corporate Travel: travel@company.com
+- Corporate Card Services: cards@company.com
+
+Approvals and Exceptions:
+- Standard expense questions: Manager
+- Policy exceptions: Director or VP
+- International travel: VP approval
+- System access issues: IT Support
+
+This policy is reviewed annually and subject to change. Employees will be notified of policy updates via email and are responsible for compliance with current policy.
+
+Last Updated: January 1, 2024
+Next Review: January 1, 2025

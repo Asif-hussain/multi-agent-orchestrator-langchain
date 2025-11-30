@@ -1,0 +1,522 @@
+INVOICE AND PAYMENT PROCESSING GUIDE
+
+ACCOUNTS PAYABLE OVERVIEW
+
+The Accounts Payable (AP) department is responsible for processing vendor invoices, managing payment schedules, and maintaining vendor relationships. This guide explains how to submit invoices, payment timelines, and troubleshooting common issues.
+
+Contact Information:
+- Email: ap@company.com
+- Phone: Extension 7200
+- Office: Finance Department, Building B, 3rd Floor
+- System: NetSuite ERP at erp.company.com
+
+INVOICE SUBMISSION REQUIREMENTS
+
+Required Information
+
+All invoices must include:
+- Vendor legal name and address
+- Vendor tax ID (W-9 on file)
+- Invoice number (unique)
+- Invoice date
+- Payment terms (Net 30, Net 60, etc.)
+- Purchase Order (PO) number (if applicable)
+- Itemized list of goods/services
+- Quantities and unit prices
+- Subtotal, taxes, and total amount
+- Remittance address
+- Payment method preferences
+
+Missing Information:
+- Invoices with missing required information will be rejected
+- Vendor will be contacted to resubmit complete invoice
+- Processing delayed until complete documentation received
+
+Submission Methods
+
+Electronic Submission (Preferred):
+- Email: ap@company.com
+- Subject line: "Invoice [Invoice Number] - [Vendor Name]"
+- Attach PDF of invoice
+- Include PO number in email body if applicable
+
+Vendor Portal:
+- Access at: vendors.company.com
+- Upload invoice directly
+- Track approval status
+- View payment history
+- Faster processing time (1-2 days vs 3-5 days for email)
+
+Mail:
+- Company Name
+- Accounts Payable Department
+- 123 Business Street
+- City, State 12345
+- Processing time: 5-7 business days
+
+PURCHASE ORDERS (PO)
+
+When PO is Required
+
+Purchase orders are mandatory for:
+- All purchases over $1,000
+- Software licenses and subscriptions
+- Consulting services
+- Equipment and hardware
+- Recurring services
+
+Exceptions (no PO required):
+- Utilities
+- Rent
+- Employee reimbursements
+- Pre-approved vendor agreements
+- Credit card purchases under $500
+
+Creating a Purchase Order
+
+Process:
+1. Log into NetSuite ERP
+2. Navigate to Purchasing > Create Purchase Order
+3. Select vendor from approved vendor list
+4. Enter line items with descriptions
+5. Attach quote or proposal
+6. Add GL account codes
+7. Submit for approval
+
+Approval Workflow:
+- Under $5,000: Manager approval
+- $5,000 - $25,000: Director approval
+- $25,000 - $100,000: VP approval
+- Over $100,000: CFO approval
+
+Three-Way Match:
+Invoices are matched against:
+1. Purchase Order (PO)
+2. Goods Receipt/Service Confirmation
+3. Invoice
+
+All three must match for automatic approval. Discrepancies require review and resolution.
+
+VENDOR MANAGEMENT
+
+New Vendor Setup
+
+Required Documents:
+- W-9 form (for US vendors) or W-8 (for international vendors)
+- ACH authorization form (for electronic payments)
+- Certificate of Insurance (if applicable)
+- Vendor information form
+- Banking details for wire transfers
+
+Setup Process:
+1. Submit new vendor request through NetSuite
+2. Attach all required documents
+3. Procurement review (2-3 business days)
+4. Compliance and background check
+5. Vendor created in system
+6. Confirmation email sent to requestor
+
+Processing Time:
+- Domestic vendors: 5-7 business days
+- International vendors: 10-14 business days
+- Expedited setup available for urgent needs (requires VP approval)
+
+Vendor Classifications:
+- Preferred Vendor: Pre-negotiated rates, faster processing
+- Standard Vendor: Regular payment terms
+- One-time Vendor: For single transactions, simplified setup
+
+Vendor Information Updates:
+- Banking changes: Submit updated ACH form
+- Address changes: Email ap@company.com with documentation
+- Tax ID changes: Submit new W-9
+- Ownership changes: May require new vendor setup
+
+PAYMENT TERMS AND SCHEDULES
+
+Standard Payment Terms
+
+Net 30: Payment due 30 days from invoice date (most common)
+Net 60: Payment due 60 days from invoice date
+Net 15: Payment due 15 days from invoice date
+Due on Receipt: Payment due immediately
+2/10 Net 30: 2% discount if paid within 10 days, otherwise net 30
+
+Payment Processing Schedule:
+- Check runs: Weekly on Thursdays
+- ACH payments: Bi-weekly on Tuesdays and Thursdays
+- Wire transfers: Daily (for urgent payments)
+- International wires: 2-3 business days processing
+
+Payment Methods
+
+ACH (Automated Clearing House) - Preferred:
+- No transaction fees
+- 1-2 business days to vendor account
+- Secure and trackable
+- Requires vendor ACH authorization
+
+Wire Transfer:
+- Same-day or next-day processing
+- Fees: $15 domestic, $45 international
+- Used for urgent payments or large amounts
+- Requires additional approval for amounts over $50,000
+
+Check:
+- Mailed within 1 business day of check run
+- Delivery time: 3-5 business days USPS
+- Used when ACH not available
+- Can request check pick-up from AP office
+
+Virtual Card:
+- For select online vendors
+- Immediate payment
+- Enhanced security
+- Earns cash-back rebates
+
+INVOICE APPROVAL WORKFLOW
+
+Standard Approval Process
+
+Step 1: Invoice Receipt
+- AP receives invoice
+- Invoice logged in NetSuite
+- Assigned invoice number
+- Notification sent to approver
+
+Step 2: Validation
+- Verify vendor is in system
+- Check for duplicate invoices
+- Validate GL coding
+- Match to PO if applicable
+- Verify budget availability
+
+Step 3: Manager Approval
+- Manager receives email notification
+- Reviews invoice details
+- Approves or rejects with comments
+- SLA: 3 business days
+
+Step 4: AP Processing
+- Final review for accuracy
+- Schedule payment per terms
+- Update vendor records
+- Process payment on due date
+
+Step 5: Payment Confirmation
+- Payment issued
+- Email notification to vendor
+- Remittance advice sent
+- Invoice marked paid in system
+
+Approval Timeframes:
+- PO-backed invoices: 1-2 business days
+- Non-PO invoices under $1,000: 3-5 business days
+- Non-PO invoices over $1,000: 5-7 business days
+- Invoices with discrepancies: 7-10 business days
+
+Expedited Processing:
+- Available for urgent vendor needs
+- Requires VP approval
+- Rush fee may apply for wire transfers
+- Must have legitimate business reason
+- Submit at least 2 business days before needed
+
+EXPENSE CODING AND GL ACCOUNTS
+
+General Ledger Account Structure
+
+Account Format: XXX-YYYY-ZZ
+- XXX: Department code
+- YYYY: Expense category
+- ZZ: Location code
+
+Common Expense Categories:
+- 5000-5099: Personnel costs
+- 5100-5199: Office expenses
+- 5200-5299: Professional services
+- 5300-5399: Marketing and advertising
+- 5400-5499: Travel and entertainment
+- 5500-5599: Technology and software
+- 5600-5699: Facilities and utilities
+- 5700-5799: Depreciation and amortization
+
+Department Codes:
+- 100: Engineering
+- 200: Sales
+- 300: Marketing
+- 400: Finance
+- 500: HR
+- 600: Operations
+- 700: Executive
+
+Coding Invoices:
+- Select appropriate GL account for each line item
+- Split invoices across multiple accounts if needed
+- Add cost center or project code if applicable
+- Include notes for unusual categorizations
+- Finance team reviews for accuracy
+
+SPECIAL PAYMENT SCENARIOS
+
+Recurring Payments
+
+Subscription Services:
+- Software licenses (monthly/annual)
+- Cloud services (AWS, Azure, etc.)
+- Professional memberships
+- Utilities and facilities
+
+Process:
+- Initial invoice requires PO and approval
+- Subsequent invoices auto-approved if amount matches
+- Annual review of all recurring payments
+- Notification if amount changes by >10%
+
+Contract Payments:
+- Based on milestone or schedule in contract
+- Payment triggered by deliverable acceptance
+- Requires project manager confirmation
+- May involve retention (10% held until completion)
+
+Retainer Agreements:
+- Monthly invoices for fixed amount
+- Auto-processed once agreement on file
+- Annual renewal requires re-approval
+
+International Payments
+
+Additional Requirements:
+- SWIFT code for wire transfers
+- IBAN for European vendors
+- Intermediary bank information
+- Currency conversion rates
+- Compliance documentation
+
+Considerations:
+- Foreign transaction fees apply
+- Exchange rate fluctuations
+- Longer processing time (3-5 business days)
+- Tax withholding may be required
+- W-8 form required for non-US vendors
+
+Currency:
+- Invoices can be in foreign currency
+- Payment processed in invoice currency or USD
+- Exchange rate locked at payment processing
+- Rates available at erp.company.com/fx-rates
+
+Employee Reimbursements
+
+Different from vendor payments:
+- Processed through expense system (Concur)
+- Faster approval (1-2 days)
+- Payment via direct deposit
+- See Expense Reimbursement Policy for details
+
+Should NOT submit through AP:
+- Employee travel expenses
+- Employee office supplies
+- Employee professional development
+- Employee mileage reimbursement
+
+Credit Card Reconciliation
+
+Corporate Card Payments:
+- Invoices should NOT be submitted if already paid by corporate card
+- Automatic payment to card issuer
+- Employee must submit expense report
+- Prevents duplicate payment
+
+Procurement Card (P-Card):
+- Department cards for small purchases
+- Monthly reconciliation required
+- Cardholder submits receipts and coding
+- AP processes payment to card issuer
+
+DISPUTE RESOLUTION
+
+Invoice Discrepancies
+
+Common Issues:
+- Incorrect pricing
+- Wrong quantities billed
+- Services not rendered
+- Duplicate invoices
+- Missing purchase order
+- Incorrect tax calculations
+
+Resolution Process:
+1. AP places invoice on hold
+2. Notifies manager and vendor
+3. Manager investigates discrepancy
+4. Vendor submits corrected invoice or credit memo
+5. Original invoice cancelled in system
+6. Corrected invoice processed
+
+Credit Memos:
+- Issued by vendor for overcharges or returns
+- Must reference original invoice
+- Automatically applied against vendor balance
+- Refund issued if no open invoices
+
+Payment Disputes:
+- Vendor claims non-payment
+- AP provides payment proof (check copy, ACH trace)
+- Research payment status
+- Reissue payment if lost (stop payment on original check)
+
+Late Payment Penalties:
+- Generally not paid if invoice submitted late
+- May be waived if internal processing delay
+- Requires VP approval
+- Documented in dispute log
+
+REPORTING AND ANALYTICS
+
+Available Reports
+
+Accounts Payable Aging:
+- Outstanding invoices by due date
+- 30/60/90 day buckets
+- By vendor or department
+- Generated weekly
+
+Payment History:
+- All payments by vendor
+- Date range filters
+- Payment method breakdown
+- Export to Excel
+
+Vendor Spending:
+- Total spend by vendor
+- Year-over-year comparisons
+- Category analysis
+- Identifies cost-saving opportunities
+
+1099 Reporting:
+- Annual requirement for US vendors
+- Payments over $600 threshold
+- Submitted by January 31
+- Vendors receive 1099-MISC or 1099-NEC
+
+Access Reports:
+- Log into NetSuite
+- Navigate to Reports > Financial > Accounts Payable
+- Select desired report
+- Apply filters and date ranges
+- Export or schedule automatic delivery
+
+COMPLIANCE AND AUDIT
+
+Tax Compliance
+
+Sales Tax:
+- Vendors should charge applicable state/local sales tax
+- Company exempt in some jurisdictions (exemption certificate on file)
+- AP validates tax calculations
+- Incorrect tax held for correction
+
+Use Tax:
+- Accrued on out-of-state purchases
+- Calculated and remitted by Finance
+- No action required from AP or managers
+
+1099 Requirements:
+- Applies to contractors and service providers
+- Does NOT apply to corporations (with exceptions)
+- Accurate W-9 forms required
+- Penalties for non-compliance
+
+Audit Trail:
+- All invoice processing tracked
+- Approval history maintained
+- Payment records retained 7 years
+- Electronic storage in NetSuite
+
+SOX Compliance:
+- Segregation of duties enforced
+- Dual approval for large payments
+- Regular access reviews
+- Annual audit procedures
+
+FRAUD PREVENTION
+
+Security Measures
+
+Payment Approval Limits:
+- Prevents unauthorized large payments
+- Escalation requirements enforced
+- System controls cannot be overridden
+
+Vendor Verification:
+- Vendor changes verified by phone
+- Banking changes require written authorization
+- Suspicious requests investigated
+
+Duplicate Detection:
+- System flags duplicate invoice numbers
+- Same vendor and amount flagged
+- Prevents accidental double-payment
+
+Common Fraud Schemes:
+- Fake vendor invoices
+- Altered banking information
+- Invoice amount inflation
+- Phantom vendors
+- Kickback schemes
+
+Reporting Suspicious Activity:
+- Contact AP Manager immediately
+- Email: fraud@company.com
+- Anonymous hotline: 1-800-ETHICS-1
+- All reports investigated confidentially
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: How long does payment take?
+A: Standard Net 30 invoices are paid 30 days from invoice date. ACH payments take 1-2 days, checks take 3-5 days to arrive.
+
+Q: Why was my invoice rejected?
+A: Common reasons: missing PO, incomplete information, duplicate invoice, pricing discrepancy. Check email for specific reason.
+
+Q: Can I get paid faster?
+A: Early payment available for invoices offering quick-pay discounts (e.g., 2/10 Net 30). Otherwise, standard terms apply.
+
+Q: How do I check payment status?
+A: Vendors can check at vendors.company.com. Internal employees can check NetSuite or email ap@company.com.
+
+Q: What if I didn't receive payment?
+A: Contact ap@company.com with invoice number. We'll provide payment trace and reissue if needed.
+
+Q: How do I update my banking information?
+A: Submit new ACH authorization form to ap@company.com. Allow 5-7 days for update.
+
+Q: Can I get a payment confirmation?
+A: Yes, remittance advice is emailed automatically. Contact AP for additional confirmation if needed.
+
+Q: What if the invoice amount changed from the PO?
+A: Submit explanation with invoice. Manager approval required for variances over 10%.
+
+CONTACT AND SUPPORT
+
+Accounts Payable Team:
+- General inquiries: ap@company.com
+- Payment status: payment-status@company.com
+- New vendor setup: vendor-setup@company.com
+- Disputes: ap-disputes@company.com
+
+Support Hours:
+Monday-Friday: 8:00 AM - 6:00 PM EST
+
+Response Times:
+- Email: 1 business day
+- Phone: Immediate during business hours
+- Portal inquiries: 4 hours
+
+Escalation:
+- AP Manager: ap-manager@company.com
+- Controller: controller@company.com
+- CFO: cfo@company.com (for urgent/executive issues)
+
+This guide is reviewed quarterly and updated as processes change. Last updated: January 2024.

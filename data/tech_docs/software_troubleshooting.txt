@@ -1,0 +1,435 @@
+SOFTWARE TROUBLESHOOTING GUIDE
+
+OPERATING SYSTEM ISSUES
+
+Windows 10/11 Troubleshooting
+
+System Performance
+Slow startup:
+- Disable unnecessary startup programs (Task Manager > Startup)
+- Run Disk Cleanup utility
+- Check for malware with company antivirus
+- Ensure Windows updates are installed
+- Consider SSD upgrade if using HDD
+
+System crashes/freezes:
+- Check Event Viewer for error logs
+- Update device drivers
+- Run memory diagnostic tool
+- Check disk health with chkdsk
+- Submit ticket if issue persists
+
+Blue Screen of Death (BSOD):
+- Note error code displayed
+- Restart in Safe Mode
+- Uninstall recently installed software
+- Update or rollback drivers
+- Run system file checker: sfc /scannow
+- Contact IT with error code
+
+Windows Update Issues:
+- Check Windows Update troubleshooter
+- Ensure sufficient disk space (20+ GB free)
+- Temporarily disable antivirus during update
+- Manual update download from Microsoft catalog
+- Reset Windows Update components (IT assistance)
+
+macOS Troubleshooting
+
+Performance Issues:
+- Check Activity Monitor for resource hogs
+- Clear system cache: ~/Library/Caches
+- Repair disk permissions with Disk Utility
+- Reset SMC (System Management Controller)
+- Reset NVRAM/PRAM
+- Reinstall macOS if necessary
+
+Application Won't Open:
+- Force quit: Command + Option + Escape
+- Delete app preferences: ~/Library/Preferences
+- Relaunch in Safe Mode
+- Repair permissions
+- Reinstall application
+
+Kernel Panic:
+- Note panic report details
+- Boot in Safe Mode (hold Shift during startup)
+- Remove third-party kernel extensions
+- Run Apple Diagnostics (hold D during startup)
+- Contact IT with panic log
+
+WEB BROWSERS
+
+Google Chrome Issues
+
+Browser Crashes:
+- Clear cache and cookies: Settings > Privacy > Clear browsing data
+- Disable extensions: Settings > Extensions
+- Reset browser settings: Settings > Advanced > Reset
+- Create new user profile
+- Reinstall Chrome
+
+Extensions Not Working:
+- Update extension from Chrome Web Store
+- Remove and reinstall extension
+- Check extension permissions
+- Disable conflicting extensions
+- Try Incognito mode to test
+
+Slow Performance:
+- Close unused tabs (limit to <20 active tabs)
+- Clear browsing data regularly
+- Disable hardware acceleration if causing issues
+- Check for malicious extensions
+- Reset Chrome flags to default
+
+Cannot Access Websites:
+- Clear DNS cache: chrome://net-internals/#dns
+- Disable proxy settings
+- Check firewall/antivirus settings
+- Try different browser to isolate issue
+- Verify internet connection
+
+Mozilla Firefox Issues
+
+Profile Corruption:
+- Refresh Firefox: Help > More Troubleshooting Information > Refresh
+- Create new profile: about:profiles
+- Copy important data from old profile
+- Sync with Firefox account
+
+Add-on Problems:
+- Start in Safe Mode: Help > Troubleshoot Mode
+- Disable problematic add-ons
+- Clear add-on data
+- Update or reinstall add-ons
+
+MICROSOFT OFFICE 365
+
+Outlook Issues
+
+Cannot Send/Receive Email:
+- Check internet connection
+- Verify Outlook is connected (status bar)
+- Check mailbox quota (not full)
+- Repair Office installation
+- Recreate Outlook profile
+- Check with IT for server issues
+
+Calendar Sync Problems:
+- Force sync: Send/Receive > Update Folder
+- Repair calendar folder
+- Create new calendar, import data
+- Check permissions for shared calendars
+- Clear Outlook cache
+
+Search Not Working:
+- Rebuild search index: File > Options > Search
+- Wait for indexing to complete (may take hours)
+- Check indexing options in Windows
+- Recreate Outlook profile if issue persists
+
+Word/Excel/PowerPoint Issues
+
+File Won't Open:
+- Check file isn't corrupted
+- Try Open and Repair: File > Open > Browse > select file > Open dropdown > Open and Repair
+- Open in Office Online (browser version)
+- Check file permissions
+- Restore from backup if corrupted
+
+AutoSave Not Working:
+- Verify file is saved to OneDrive or SharePoint
+- Check OneDrive sync status
+- Ensure you have edit permissions
+- Sign out and sign back into Office
+- Check OneDrive storage quota
+
+Formatting Issues:
+- Update Office to latest version
+- Repair Office: Control Panel > Programs > Microsoft Office > Repair
+- Clear formatting: Ctrl+Space (text) or Ctrl+Shift+N (paragraph)
+- Check compatibility mode for older files
+
+License Activation Problems:
+- Sign out of Office account: File > Account > Sign out
+- Sign back in with company email
+- Run activation troubleshooter
+- Verify license assignment in Office 365 portal
+- Contact IT if activation fails
+
+COMMUNICATION TOOLS
+
+Slack Issues
+
+Connection Problems:
+- Check internet connection
+- Refresh Slack: Ctrl+R (Windows) or Cmd+R (Mac)
+- Clear cache: Help > Troubleshooting > Clear Cache and Restart
+- Check status at status.slack.com
+- Try web version at company.slack.com
+
+Notifications Not Working:
+- Check notification settings: Preferences > Notifications
+- Verify system notifications allowed
+- Check Do Not Disturb schedule
+- Ensure Slack has notification permissions (System Settings)
+- Test with @mention to yourself
+
+File Upload Failures:
+- Check file size (max 1 GB)
+- Verify file type isn't blocked
+- Check network connection stability
+- Try uploading smaller file to test
+- Use file sharing service for very large files
+
+Microsoft Teams Issues
+
+Audio/Video Problems:
+- Test devices: Settings > Devices
+- Check device permissions in system settings
+- Update audio/video drivers
+- Close other apps using camera/microphone
+- Restart Teams completely
+
+Cannot Join Meeting:
+- Update Teams to latest version
+- Clear Teams cache: %appdata%\Microsoft\Teams (Windows)
+- Check firewall isn't blocking Teams
+- Try joining from browser instead
+- Verify meeting link is valid
+
+Screen Sharing Not Working:
+- Grant screen recording permissions (macOS)
+- Close Teams, restart as administrator (Windows)
+- Update graphics drivers
+- Disable GPU hardware acceleration
+- Check firewall settings
+
+Zoom Issues
+
+Poor Video Quality:
+- Check internet speed (minimum 3 Mbps recommended)
+- Enable HD video: Settings > Video > HD
+- Close bandwidth-heavy applications
+- Ask participants to turn off video to improve performance
+- Use wired connection instead of WiFi
+
+Echo or Audio Feedback:
+- Use headphones instead of speakers
+- Mute when not speaking
+- Test speaker and microphone settings
+- Adjust volume levels
+- Check for multiple audio devices
+
+Meeting Disconnections:
+- Test internet stability
+- Close unnecessary apps/tabs
+- Disable VPN if not required
+- Try mobile hotspot if WiFi unstable
+- Rejoin meeting after connection stabilizes
+
+DEVELOPMENT TOOLS
+
+Visual Studio Code Issues
+
+Extensions Not Loading:
+- Reload window: Ctrl+R
+- Disable/re-enable extension
+- Check extension compatibility with VS Code version
+- Clear extension cache
+- Reinstall extension
+
+Performance Issues:
+- Disable unused extensions
+- Exclude node_modules from file watching
+- Increase max memory: --max-memory=NEWSIZE
+- Disable minimap and breadcrumbs
+- Use workspace trust selectively
+
+Git Integration Problems:
+- Initialize git repository if needed
+- Check git credentials
+- Refresh git status
+- Verify .git folder exists
+- Check git config settings
+
+Git Issues
+
+Authentication Failures:
+- Update credentials in credential manager
+- Use SSH keys instead of HTTPS
+- Generate new personal access token
+- Check .git/config for correct remote URL
+- Clear credential cache
+
+Merge Conflicts:
+- Use VS Code or git mergetool
+- Identify conflict markers: <<<<<<<, =======, >>>>>>>
+- Choose correct changes
+- Test after resolving
+- Commit resolved merge
+
+Push/Pull Failures:
+- Pull latest changes first
+- Check remote repository is accessible
+- Verify branch tracking: git branch -vv
+- Force pull if necessary (careful with this)
+- Check for large files (>100MB)
+
+Docker Issues
+
+Container Won't Start:
+- Check Docker daemon is running
+- View logs: docker logs [container-id]
+- Verify port isn't already in use
+- Check resource limits (memory, CPU)
+- Rebuild image if corrupted
+
+Image Build Failures:
+- Clear build cache: docker builder prune
+- Check Dockerfile syntax
+- Verify base image is accessible
+- Increase Docker memory allocation
+- Check network connectivity for downloads
+
+Volume Mount Issues:
+- Verify path exists on host
+- Check file permissions
+- Use absolute paths
+- Check for path case sensitivity (Windows)
+- Restart Docker daemon
+
+Python Issues
+
+Package Installation Failures:
+- Update pip: python -m pip install --upgrade pip
+- Use virtual environment
+- Check PyPI connectivity
+- Install build tools (C++ compiler for some packages)
+- Try alternate package source
+
+Import Errors:
+- Verify package is installed: pip list
+- Check Python path: sys.path
+- Ensure virtual environment is activated
+- Reinstall package: pip install --force-reinstall
+- Check for naming conflicts
+
+Version Conflicts:
+- Use virtual environments for isolation
+- Pin dependencies in requirements.txt
+- Use pipenv or poetry for dependency management
+- Check compatibility before upgrading
+- Create separate environments for different projects
+
+ANTIVIRUS AND SECURITY SOFTWARE
+
+CrowdStrike Falcon Issues
+
+High CPU Usage:
+- Scheduled scans may cause temporary high usage
+- Exclude development folders if approved by security
+- Check for malware triggering constant scans
+- Contact IT if persistent
+
+False Positives:
+- Submit file for analysis through IT
+- Temporary exclusion may be granted
+- Never disable antivirus without approval
+- Use approved development tools
+
+COMMON ERROR CODES
+
+HTTP Error Codes
+
+401 Unauthorized:
+- Sign out and sign back in
+- Clear browser cookies
+- Verify account permissions
+- Reset password if needed
+- Check with IT if account is locked
+
+403 Forbidden:
+- Request access from resource owner
+- Verify you're using correct account
+- Check VPN is connected if required
+- Contact IT for permission review
+
+404 Not Found:
+- Verify URL is correct
+- Check if resource was moved or deleted
+- Clear browser cache
+- Contact resource owner
+
+500 Internal Server Error:
+- Wait and retry (may be temporary)
+- Clear browser cache and cookies
+- Try different browser
+- Report to application owner
+- Check status page for known issues
+
+SYSTEM TOOLS
+
+Windows System File Checker:
+sfc /scannow - Scans and repairs system files
+DISM /Online /Cleanup-Image /RestoreHealth - Repairs Windows image
+
+macOS Disk Utility:
+First Aid - Repairs disk permissions and errors
+Erase - Format drives (WARNING: deletes all data)
+
+Performance Monitors:
+Windows: Task Manager (Ctrl+Shift+Esc)
+macOS: Activity Monitor
+Linux: htop, top
+
+GENERAL TROUBLESHOOTING STEPS
+
+The Universal Fix:
+1. Restart the application
+2. Restart the computer
+3. Check for updates
+4. Check internet connection
+5. Contact IT Support
+
+Before Contacting Support:
+- Note exact error message
+- Document steps to reproduce
+- Try basic troubleshooting
+- Check if others have same issue
+- Gather screenshots/logs
+
+Information to Provide IT:
+- Your name and employee ID
+- Device hostname/serial number
+- Application name and version
+- Exact error message
+- Steps to reproduce issue
+- When problem started
+- What you've already tried
+
+PREVENTIVE MAINTENANCE
+
+Weekly Tasks:
+- Restart computer at least once
+- Clear browser cache
+- Close unused applications
+- Check for Windows/macOS updates
+- Organize files, delete unnecessary data
+
+Monthly Tasks:
+- Run disk cleanup
+- Review installed programs, remove unused
+- Update applications
+- Check backup status
+- Review startup programs
+
+Quarterly Tasks:
+- Full system scan with antivirus
+- Review saved passwords
+- Update security questions
+- Archive old emails and files
+- Clean keyboard and screen
+
+For technical issues not resolved by this guide, contact IT Support with as much detail as possible about the problem.

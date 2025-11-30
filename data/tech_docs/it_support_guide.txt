@@ -1,0 +1,928 @@
+IT SUPPORT GUIDE - TECHNICAL ASSISTANCE
+
+GETTING HELP
+
+How to Contact IT Support
+- Email: support@company.com
+- Slack: #it-help channel
+- Phone: Extension 4357 (HELP)
+- Support Portal: support.company.com
+- In-person: IT Help Desk (Building A, 1st Floor)
+
+Support Hours
+- Monday-Friday: 7:00 AM - 7:00 PM EST
+- Saturday: 9:00 AM - 5:00 PM EST
+- Sunday: Closed
+- Emergency support available 24/7 for critical issues
+
+Response Time SLAs
+- Critical (system down): 1 hour
+- High (major functionality impaired): 4 hours
+- Medium (minor functionality issue): 1 business day
+- Low (general questions, requests): 2 business days
+
+COMMON ISSUES AND SOLUTIONS
+
+PASSWORD RESET
+
+Email Password Reset
+1. Go to password.company.com
+2. Enter your username (firstname.lastname)
+3. Click "Forgot Password"
+4. Verify identity through email or text message
+5. Create new password meeting requirements:
+   - Minimum 12 characters
+   - At least 1 uppercase letter
+   - At least 1 lowercase letter
+   - At least 1 number
+   - At least 1 special character
+   - Cannot reuse last 5 passwords
+
+VPN Password Reset
+If you cannot access the password reset portal remotely:
+1. Call IT Support at Extension 4357
+2. Verify identity with employee ID and birth date
+3. Temporary password will be provided via registered phone number
+4. Must change temporary password upon first login
+
+LAPTOP AND HARDWARE ISSUES
+
+Laptop Not Turning On
+1. Check power adapter is securely connected
+2. Try different power outlet
+3. Hold power button for 10 seconds to hard reset
+4. If still not working, contact IT Support
+5. Loaner laptops available for critical work
+
+Slow Computer Performance
+1. Close unnecessary applications and browser tabs
+2. Restart your computer (fixes 80% of performance issues)
+3. Check for pending system updates
+4. Run disk cleanup utility
+5. If problem persists, submit ticket for malware scan
+
+Screen Issues
+- External monitor not working: Check cable connections, try different port
+- Laptop screen cracked: Submit ticket immediately, replacement within 24 hours
+- Display flickering: Update graphics drivers through Software Center
+
+SOFTWARE AND APPLICATIONS
+
+Installing Approved Software
+1. Open Software Center application
+2. Browse or search for approved software
+3. Click "Install" - no admin rights required
+4. Software installs automatically
+5. Restart if prompted
+
+Approved software includes:
+- Microsoft Office 365 Suite
+- Slack, Zoom, Teams
+- Chrome, Firefox, Edge browsers
+- Adobe Acrobat Reader
+- Zoom, WebEx
+- Python, Visual Studio Code
+- Git, Docker
+- Postman, Tableau
+
+Requesting New Software
+1. Submit request through IT portal
+2. Include business justification
+3. Requires manager approval
+4. Security review (2-5 days)
+5. Installation scheduled if approved
+
+Microsoft Office Issues
+- Activation errors: Sign out and sign back in with company email
+- Crashes: Repair Office through Software Center
+- File won't open: Check file permissions, try opening in browser version
+- Missing features: Ensure you have latest updates
+
+EMAIL AND COMMUNICATION
+
+Email Inbox Full
+- Mailbox quota: 50 GB
+- Archive old emails to local folders
+- Empty deleted items folder
+- Use archive feature for emails older than 1 year
+- Contact IT to request quota increase if needed
+
+Email Delivery Issues
+- Check spam/junk folder
+- Verify recipient address is correct
+- Large attachments (>25MB) may be blocked - use file sharing instead
+- If bounce-back received, forward to IT Support
+
+Slack Issues
+- Can't log in: Reset password at company.slack.com
+- Missing channels: Request access from channel owner
+- Notifications not working: Check notification settings in preferences
+- File upload failing: Check file size (max 1GB) and format
+
+Zoom Problems
+- Audio not working: Check microphone permissions in system settings
+- Video not working: Check camera permissions, restart Zoom
+- Can't join meeting: Update Zoom to latest version
+- Screen sharing not working: Grant screen recording permissions
+
+NETWORK AND CONNECTIVITY
+
+WiFi Connection Problems
+Office WiFi Networks:
+- CompanySecure: For company devices (auto-connects)
+- CompanyGuest: For personal devices and visitors
+
+Troubleshooting Steps:
+1. Toggle WiFi off and back on
+2. Forget network and reconnect
+3. Restart device
+4. Try different network if available
+5. Check with colleagues if issue is widespread
+
+VPN Access
+
+Setting Up VPN
+1. Download Cisco AnyConnect from Software Center
+2. Install and restart computer
+3. Open AnyConnect
+4. Enter vpn.company.com
+5. Login with company credentials
+6. Accept push notification for 2FA
+
+VPN Required For:
+- Accessing internal company resources remotely
+- Connecting to company databases
+- Accessing file shares from home
+- Using internal tools and applications
+
+VPN Troubleshooting:
+- Can't connect: Verify internet connection first
+- Connection drops: Try different internet connection
+- Slow performance: Disconnect and reconnect
+- 2FA not working: Verify phone number in identity management system
+
+PRINTER AND SCANNING
+
+Adding Network Printers
+1. Open Software Center
+2. Select "Printers"
+3. Choose printer by location
+4. Click "Add Printer"
+5. Printer installs automatically
+
+Printing Issues
+- Print job stuck: Cancel job in print queue, restart printer
+- Poor print quality: Run printer cleaning cycle from printer menu
+- Paper jam: Open printer, carefully remove jammed paper
+- Out of toner: Submit supply request through IT portal
+
+Scanning Documents
+1. Place document on scanner glass or feeder
+2. Use printer touchscreen or scan software on computer
+3. Select destination (email, network folder)
+4. Choose file format (PDF recommended)
+5. Press scan button
+
+MOBILE DEVICE MANAGEMENT
+
+Company Phone Setup
+1. Receive device from IT
+2. Power on and follow setup wizard
+3. Install Company Portal app
+4. Sign in with company email
+5. Accept device management policies
+6. Install required apps (email, Slack, authenticator)
+
+BYOD (Bring Your Own Device)
+1. Install Company Portal app from app store
+2. Sign in with company credentials
+3. Enroll device in MDM
+4. Set device passcode (minimum 6 digits)
+5. Access company email and apps
+
+Lost or Stolen Device
+1. Report immediately to IT Support (24/7 line)
+2. Device will be remotely wiped for security
+3. Replacement device issued within 24 hours
+4. SIM card deactivated
+5. File police report for stolen devices
+
+SECURITY AND COMPLIANCE
+
+Two-Factor Authentication (2FA)
+Required for:
+- Email access
+- VPN connections
+- Cloud applications
+- Admin access
+
+Setting up 2FA:
+1. Go to identity.company.com
+2. Click "Security Settings"
+3. Add authentication method (phone or authenticator app)
+4. Verify with test code
+5. Save backup codes in secure location
+
+Phishing and Security Threats
+Warning signs:
+- Unexpected urgent requests
+- Requests for passwords or sensitive data
+- Suspicious links or attachments
+- Misspelled sender addresses
+- Generic greetings ("Dear user")
+
+If you receive suspicious email:
+1. Do NOT click links or download attachments
+2. Do NOT reply or provide information
+3. Forward to security@company.com
+4. Delete original email
+5. Report through Slack #security-alerts
+
+DATA BACKUP
+
+Automatic Backups
+- All company laptops backed up nightly to cloud
+- Backup includes Documents, Desktop, Pictures folders
+- Backups retained for 90 days
+- Files accessible through backup portal
+
+Restoring Files
+1. Go to backup.company.com
+2. Sign in with company credentials
+3. Browse to file location and date
+4. Select files to restore
+5. Choose restore location
+6. Files download automatically
+
+HARDWARE REQUESTS
+
+Requesting New Equipment
+1. Submit request through IT portal
+2. Include business justification
+3. Requires manager approval
+4. Budget approval for items >$500
+5. Standard processing time: 5-7 business days
+
+Standard Equipment Packages:
+- Developer: High-spec laptop, dual monitors, mechanical keyboard
+- Standard: Business laptop, single monitor, wireless mouse
+- Executive: Premium laptop, docking station, headset
+
+Returning Equipment
+Upon termination or role change:
+- Return all company devices to IT
+- Wipe personal data before return
+- Include all accessories (chargers, cables, etc.)
+- Sign equipment return form
+- Failure to return may result in payroll deduction
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: How do I access my work email from home?
+A: Use webmail at mail.company.com or set up email on mobile device with Company Portal.
+
+Q: Can I install software on my laptop?
+A: Use Software Center for approved apps. Request approval for other software.
+
+Q: What should I do if my laptop is stolen?
+A: Contact IT Support immediately at emergency line. Device will be remotely wiped.
+
+Q: How do I connect to WiFi as a guest?
+A: Connect to CompanyGuest network. Password available from reception or any employee.
+
+Q: Can I use my personal cloud storage for work files?
+A: No. Use company-approved storage (OneDrive, SharePoint) only for work data.
+
+For issues not covered in this guide, contact IT Support through any of the channels listed at the top of this document.
+
+ADVANCED TROUBLESHOOTING
+
+Browser Issues and Performance
+
+Google Chrome Problems:
+- Browser running slow: Clear cache and cookies (Settings > Privacy > Clear browsing data)
+- Extensions not working: Disable and re-enable, or reinstall from Chrome Web Store
+- Pages not loading: Clear DNS cache, disable extensions, try incognito mode
+- Crashes frequently: Update to latest version, disable hardware acceleration
+- Memory usage high: Use Chrome Task Manager (Shift+Esc) to identify heavy tabs
+
+Firefox Issues:
+- Sync not working: Sign out and sign back into Firefox account
+- Add-ons causing problems: Start in Safe Mode (Help > Restart with Add-ons Disabled)
+- Slow performance: Refresh Firefox (About Firefox > Refresh)
+- Certificate errors: Check system date/time settings
+
+Microsoft Edge Issues:
+- Pages displaying incorrectly: Clear cache, disable Compatibility Mode
+- Collections not syncing: Check Microsoft account sync settings
+- PDF viewer not working: Reset Edge settings or use Adobe Reader
+- Favorites missing: Sign into Microsoft account to restore
+
+Browser Best Practices:
+- Keep browser updated to latest version
+- Use maximum 10-15 tabs simultaneously for optimal performance
+- Clear cache monthly
+- Disable unused extensions
+- Use bookmarks instead of keeping tabs open
+- Enable pop-up blocker
+- Set homepage to company portal
+
+File Sharing and Collaboration
+
+OneDrive for Business:
+Setup and Configuration:
+1. OneDrive comes pre-installed with Windows
+2. Sign in with company email
+3. Choose folders to sync (selective sync recommended)
+4. Files sync automatically when online
+5. Access files offline when configured
+
+Common OneDrive Issues:
+- Files not syncing: Check internet connection, pause and resume sync
+- Sync errors: Ensure file name doesn't contain special characters (< > : " / \ | ? *)
+- Storage full: Archive old files, request storage increase from IT
+- Sharing not working: Verify recipient has correct permissions
+- Version conflicts: Use "Version History" to restore correct version
+
+SharePoint Document Libraries:
+- Access through company portal or sharepoint.company.com
+- Check out files before editing to prevent conflicts
+- Use metadata and columns for better organization
+- Create views to filter and sort documents
+- Set up alerts for important document changes
+- Use version history to track changes and restore previous versions
+
+File Sharing Best Practices:
+- Share links instead of email attachments for files >10MB
+- Set expiration dates on external shares
+- Use "Can view" permissions unless editing is required
+- Never share confidential data with external email addresses
+- Review and remove unnecessary shares quarterly
+
+Microsoft Teams Advanced Features:
+
+Teams Troubleshooting:
+- Poor call quality: Close other applications, check bandwidth, use wired connection
+- Cannot see shared screen: Update Teams, check firewall settings
+- Notifications not working: Check notification settings in Teams and system preferences
+- Teams running slow: Clear cache (Settings > Clear cache), restart Teams
+- Missing conversations: Check filters, ensure you haven't left the team
+
+Teams Best Practices:
+- Mute when not speaking in large meetings
+- Use @mentions to notify specific people
+- Pin important channels for easy access
+- Use status indicators (Available, Busy, Do Not Disturb)
+- Schedule meetings through Teams calendar
+- Record important meetings (with participant consent)
+- Use background blur for professional appearance
+
+Teams Features:
+- Breakout rooms for training sessions
+- Live captions and transcription
+- Together mode for better meeting engagement
+- Screen sharing with specific window option
+- Whiteboard collaboration
+- Polls and Q&A for interactive presentations
+- Meeting notes integration with OneNote
+
+Video Conferencing Best Practices
+
+Zoom Advanced Features:
+- Virtual backgrounds (Settings > Virtual Background)
+- Noise suppression (Audio Settings > Suppress background noise)
+- Touch up appearance (Video Settings > Touch up my appearance)
+- Dual monitor support for viewing shared content
+- Recording to cloud or local storage
+- Breakout rooms for group discussions
+- Waiting rooms for security
+- Co-host capabilities for large meetings
+
+WebEx Features:
+- Personal room for instant meetings
+- Guest access without account
+- Integration with Outlook calendar
+- Recording and transcription
+- Polling and Q&A features
+- Whiteboard and annotation tools
+- Noise removal and background blur
+
+Meeting Etiquette and Tips:
+- Test audio and video 5 minutes before important meetings
+- Use headphones to prevent echo
+- Ensure good lighting (face light source)
+- Position camera at eye level
+- Minimize background distractions
+- Dress professionally (at least from waist up)
+- Look at camera when speaking
+- Use mute when not speaking
+- Avoid multitasking during meetings
+
+SYSTEM ADMINISTRATION
+
+Windows 10/11 Tips and Tricks:
+
+Keyboard Shortcuts:
+- Windows + L: Lock computer
+- Windows + D: Show desktop
+- Windows + E: Open File Explorer
+- Windows + I: Open Settings
+- Windows + V: Clipboard history
+- Windows + . : Emoji picker
+- Alt + Tab: Switch between applications
+- Windows + Shift + S: Screenshot tool
+- Ctrl + Shift + Esc: Task Manager
+
+Task Manager Usage:
+- End unresponsive applications
+- Monitor CPU, memory, disk usage
+- View startup programs
+- Check network activity
+- Identify resource-hungry processes
+- View app history and performance
+
+Disk Cleanup and Maintenance:
+1. Search "Disk Cleanup" in Start menu
+2. Select drive to clean (usually C:)
+3. Check items to delete:
+   - Temporary files
+   - Downloads folder
+   - Recycle Bin
+   - Temporary Internet files
+4. Click "Clean up system files" for more options
+5. Consider deleting previous Windows installations
+6. Run monthly for optimal performance
+
+Windows Updates:
+- Updates install automatically overnight
+- Restart computer when prompted
+- Critical updates install outside business hours
+- Feature updates tested by IT before deployment
+- Issues with update? Contact IT immediately
+- Update history viewable in Settings > Windows Update
+
+macOS Support:
+
+Common macOS Issues:
+- Application won't open: Check security preferences, try opening with Control+Click
+- Disk space low: Empty trash, remove large unused applications, use Optimized Storage
+- Spinning beachball (slow performance): Force quit unresponsive app, restart computer
+- WiFi disconnecting: Forget network and rejoin, reset NVRAM, check for interference
+- iCloud sync issues: Sign out and back into iCloud, check storage space
+
+macOS Keyboard Shortcuts:
+- Command + Q: Quit application
+- Command + W: Close window
+- Command + Space: Spotlight search
+- Command + Tab: Switch applications
+- Command + Shift + 3: Screenshot entire screen
+- Command + Shift + 4: Screenshot selection
+- Option + Command + Esc: Force quit
+- Command + ,: Open preferences
+
+macOS Maintenance:
+- Keep macOS updated through System Preferences
+- Manage startup items in Users & Groups
+- Use Activity Monitor to check resource usage
+- Clear cache with developer tools or third-party apps
+- Verify and repair disk permissions with Disk Utility
+- Back up with Time Machine to external drive
+
+Linux/Unix Support:
+
+Supported Distributions:
+- Ubuntu 20.04 LTS and 22.04 LTS
+- Red Hat Enterprise Linux 8
+- CentOS Stream
+- Requires special approval for development roles
+
+Linux Support Resources:
+- Internal documentation: wiki.company.com/linux
+- Slack channel: #linux-users
+- Community support from fellow Linux users
+- Limited IT support (best-effort basis)
+- Use VirtualBox or WSL for development environments
+
+Remote Access Solutions:
+
+Remote Desktop (Windows):
+1. Ensure computer is on and connected to network
+2. Note computer name (System Properties)
+3. From remote location, connect to VPN
+4. Open Remote Desktop Connection
+5. Enter computer name or IP address
+6. Login with company credentials
+7. Full access to office computer
+
+Mac Screen Sharing:
+1. Enable Screen Sharing in System Preferences
+2. Note computer name
+3. From remote Mac, connect to VPN
+4. Open Finder > Network
+5. Select computer and click "Share Screen"
+6. Authenticate with credentials
+
+TeamViewer for Remote Support:
+- IT Support can request remote access for troubleshooting
+- You'll receive a connection code
+- Provide code to IT agent
+- Approve connection request
+- IT can view screen and control computer to resolve issues
+- Session ends automatically when issue is resolved
+
+SOFTWARE LICENSING AND COMPLIANCE
+
+Software License Management:
+
+Microsoft Office 365:
+- Licensed per user, not per device
+- Can install on up to 5 devices
+- Includes Word, Excel, PowerPoint, Outlook, OneNote, Teams
+- Cloud storage: 1TB OneDrive per user
+- License tied to company email account
+- Deactivates when employment ends
+
+Adobe Creative Cloud:
+- Available for Marketing, Design, and creative roles
+- Request through IT portal with manager approval
+- Includes Photoshop, Illustrator, InDesign, Premiere Pro
+- License cost: $55/month per user
+- Must return license if no longer needed for role
+
+Development Tools:
+- Visual Studio Professional: Available to all developers
+- IntelliJ IDEA: Request through IT portal
+- GitHub Enterprise: Automatic access for Engineering
+- Docker Desktop: Free for developers
+- Postman Pro: Team licenses available
+
+Software Audit Compliance:
+- Do not install unauthorized software
+- Do not share software licenses
+- Do not use personal licenses for work
+- Report unused licenses for reallocation
+- Annual audit conducted in Q1
+- Violations may result in disciplinary action
+
+ACCESSIBILITY FEATURES AND SUPPORT
+
+Windows Accessibility:
+
+Narrator (Screen Reader):
+- Turn on: Windows + Ctrl + Enter
+- Reads screen content aloud
+- Navigation keyboard shortcuts
+- Customizable speech rate and voice
+- Supports major applications
+
+Magnifier:
+- Turn on: Windows + Plus (+)
+- Zoom in: Windows + Plus
+- Zoom out: Windows + Minus
+- Full screen, lens, or docked mode
+- Customizable zoom level and tracking
+
+High Contrast Mode:
+- Activate: Left Alt + Left Shift + Print Screen
+- Easier to read for visual impairments
+- Customizable color schemes
+- Works with most applications
+
+Speech Recognition:
+- Control computer with voice commands
+- Dictate text in any application
+- Training improves accuracy
+- Headset microphone recommended
+
+macOS Accessibility:
+
+VoiceOver:
+- Turn on: Command + F5
+- Advanced screen reader
+- Gesture support on trackpad
+- Rotor for quick navigation
+- Works with all Mac apps
+
+Zoom:
+- Enable in Accessibility preferences
+- Zoom in: Option + Command + Plus
+- Zoom out: Option + Command + Minus
+- Full screen or picture-in-picture
+- Smart zoom follows keyboard focus
+
+Display Accommodations:
+- Invert colors for better contrast
+- Reduce transparency for clarity
+- Reduce motion for less distraction
+- Differentiate without color for color blindness
+
+Requesting Assistive Technology:
+1. Contact HR for accommodation request
+2. Provide documentation if required
+3. IT will assess and recommend solutions
+4. Specialized hardware/software procured
+5. Training provided on assistive technology
+6. Ongoing support from IT Accessibility Team
+
+IT SECURITY BEST PRACTICES
+
+Password Management:
+
+Password Requirements:
+- Minimum 12 characters (16+ recommended)
+- Mix of uppercase and lowercase letters
+- Include numbers and special characters
+- No dictionary words or personal information
+- Cannot reuse last 10 passwords
+- Must change every 90 days
+- Cannot contain username or email
+
+Using Password Managers:
+- 1Password or LastPass recommended
+- Store all passwords securely
+- Generate strong random passwords
+- Sync across devices
+- Share credentials securely with team members
+- Enable biometric authentication
+- Use master password that you'll never forget
+
+Password Security Tips:
+- Never write passwords down
+- Don't share passwords via email or Slack
+- Use different password for each system
+- Enable password manager autofill
+- Be cautious of shoulder surfing
+- Log out of shared computers
+- Use passphrases for memorable strong passwords
+
+Encryption and Data Protection:
+
+BitLocker (Windows):
+- Full disk encryption enabled on all company laptops
+- Encrypts entire hard drive
+- Protects data if device lost or stolen
+- Transparent to user (no performance impact)
+- Recovery key stored with IT
+
+FileVault (Mac):
+- Full disk encryption for macOS
+- Enabled by default on company Macs
+- Encrypts all data at rest
+- Uses login password to unlock
+- Recovery key stored in iCloud and with IT
+
+Data Classification:
+- Public: Marketing materials, press releases
+- Internal: General business information, policies
+- Confidential: Employee data, contracts, financial info
+- Restricted: Trade secrets, unreleased products, PII
+
+Handling Confidential Data:
+- Store only on company-approved systems
+- Encrypt when emailing externally
+- Shred physical documents
+- Lock computer when away from desk
+- Use privacy screens in public places
+- Report data breaches immediately
+
+USB and External Drive Policy:
+- Use only company-approved USB drives
+- Encrypt sensitive data on external drives
+- Scan all USB drives for malware before use
+- Do not use personal USB drives for company data
+- Return company USB drives when no longer needed
+
+INCIDENT REPORTING AND ESCALATION
+
+When to Contact IT Support:
+
+Immediate Contact Required (Critical):
+- Suspected security breach or malware
+- Lost or stolen company device
+- Data loss or corruption
+- System completely unavailable
+- Unable to access critical business systems
+- Received ransomware or extortion threat
+
+Same-Day Contact (High Priority):
+- Email not working for extended period
+- VPN connection failing (for remote workers)
+- Major application not functioning
+- Printer down in high-volume area
+- Phone system issues affecting multiple users
+
+Standard Request (Medium/Low):
+- Software installation requests
+- Hardware accessories needed
+- General how-to questions
+- Non-urgent password resets
+- Equipment upgrades
+- New user account setup
+
+How to Submit Effective IT Tickets:
+
+Include in Your Request:
+- Detailed description of the issue
+- What you were doing when it occurred
+- Error messages (take screenshot)
+- Steps you've already tried
+- Impact on your work (critical, high, medium, low)
+- Your contact information and location
+- Best time to reach you
+
+Example Good Ticket:
+"Unable to print to 3rd floor color printer. Error message: 'Printer offline.' Tried restarting printer and removing print jobs from queue. This is blocking urgent client proposal due today at 4 PM. Please call me at ext. 5555. Thank you!"
+
+Example Poor Ticket:
+"Printer broken. Fix it."
+
+Ticket Tracking:
+- Ticket number emailed upon submission
+- Check status at support.company.com
+- Updates sent via email
+- Respond to IT requests for information
+- Close ticket when issue resolved
+- Provide feedback on service quality
+
+Escalation Process:
+If issue not resolved in expected timeframe:
+1. Reply to ticket with urgency explanation
+2. Request supervisor review
+3. Contact IT Service Desk Manager
+4. Email CIO for critical business-impacting issues
+
+IT SERVICE CATALOG
+
+Services Available Through IT:
+
+Account Management:
+- New user account creation
+- Account modifications and permissions
+- Account deactivation (terminations)
+- Password resets
+- Distribution list management
+- Shared mailbox setup
+- Calendar delegation
+
+Hardware Services:
+- New equipment procurement
+- Equipment upgrades and replacements
+- Loaner devices during repairs
+- Peripheral setup (monitors, keyboards, etc.)
+- Hardware troubleshooting and repair
+- Asset tracking and inventory
+- Equipment disposal and recycling
+
+Software Services:
+- Software installation and licensing
+- Application troubleshooting
+- Software updates and patches
+- New software requests and evaluation
+- License renewals
+- Custom application support
+
+Network Services:
+- WiFi access and troubleshooting
+- VPN setup and support
+- Network drops (wired connections)
+- Firewall exceptions
+- Internet connectivity issues
+- Bandwidth increases for departments
+
+Security Services:
+- Antivirus and malware protection
+- Security awareness training
+- Phishing email reporting
+- Security incident response
+- Access control and authentication
+- Encryption services
+- Compliance support
+
+Collaboration Services:
+- Email and calendar support
+- Teams and Slack administration
+- Video conferencing setup
+- Shared drives and file sharing
+- Mobile device management
+- Phone system support
+
+Data Services:
+- Data backup and restoration
+- Archive and retention
+- Database access requests
+- Report generation
+- Data migration assistance
+
+Project Services:
+- New office technology setup
+- Conference room technology
+- Kiosk and digital signage
+- Audio/visual equipment
+- Special event technical support
+
+Training and Documentation:
+- New hire technology orientation
+- Software training sessions
+- Self-service knowledge base
+- Video tutorials
+- IT best practices documentation
+
+Self-Service Options:
+- Password reset portal
+- Software Center for approved apps
+- Knowledge base and FAQs
+- Video tutorials
+- IT documentation wiki
+- Chatbot for common questions
+
+IT POLICIES AND PROCEDURES
+
+Acceptable Use Policy:
+
+Company technology is provided for business use. Acceptable personal use includes:
+- Checking personal email during breaks
+- Brief personal phone calls
+- Emergency family communications
+- Occasional personal internet browsing
+
+Unacceptable use includes:
+- Illegal activities
+- Accessing inappropriate content
+- Excessive personal use interfering with work
+- Unauthorized disclosure of confidential information
+- Harassment or discrimination
+- Installing unauthorized software
+- Bypassing security controls
+- Cryptocurrency mining
+- Using company resources for outside business
+
+Consequences of Policy Violations:
+- First offense: Written warning
+- Second offense: Suspension
+- Third offense or severe violation: Termination
+- Illegal activity: Law enforcement referral
+
+Monitoring and Privacy:
+- Company reserves right to monitor all technology use
+- Email, internet, and file access may be reviewed
+- No expectation of privacy on company systems
+- Monitoring conducted for security and compliance
+- Personal devices enrolled in MDM subject to policy
+
+Remote Work Technology Policy:
+
+Equipment:
+- Company provides laptop and necessary peripherals
+- Home office technology stipend: $500 one-time
+- Responsible for equipment security and care
+- Return all equipment if role changes to in-office
+
+Internet Requirements:
+- Minimum 25 Mbps download, 5 Mbps upload
+- Reliable connection for video conferencing
+- Company may reimburse internet costs with approval
+- Use VPN for all company resource access
+
+Workspace:
+- Dedicated workspace free from distractions
+- Ergonomic setup to prevent injury
+- Secure area not accessible to others
+- Professional background for video calls
+
+Security Requirements:
+- Keep all software and systems updated
+- Never allow others to use company equipment
+- Secure home WiFi with WPA2/WPA3 encryption
+- Lock computer when away
+- Shred or destroy confidential documents
+- Report lost/stolen equipment immediately
+
+Technology Refresh Cycle:
+
+Standard Replacement Schedule:
+- Laptops: Every 3-4 years
+- Desktops: Every 4-5 years
+- Monitors: Every 5-6 years
+- Mobile devices: Every 2-3 years
+- Peripherals: As needed when failing
+
+Eligibility for Early Refresh:
+- Performance issues impacting work
+- Hardware failure not economical to repair
+- Role change requiring different specs
+- Warranty expiration
+- Security vulnerabilities in older hardware
+
+Refresh Process:
+1. IT notifies you when eligible
+2. Choose from available models
+3. New device provisioned and configured
+4. Data migrated from old device
+5. Return old device to IT
+6. Old device securely wiped and recycled
+
+Sustainability:
+- Devices refurbished when possible
+- Responsible e-waste recycling
+- Donation to nonprofits when appropriate
+- Data destruction certifications provided

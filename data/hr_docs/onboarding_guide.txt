@@ -1,0 +1,389 @@
+NEW EMPLOYEE ONBOARDING GUIDE
+
+WELCOME TO THE TEAM!
+This guide will help you navigate your first weeks at the company.
+
+WEEK 1: GETTING STARTED
+
+Day 1 - Orientation
+- Arrive at 9:00 AM at the main reception desk
+- HR will provide your employee badge, laptop, and welcome packet
+- Complete new hire paperwork including I-9, W-4, and direct deposit forms
+- Set up benefits enrollment in the HR portal within first 30 days
+- IT will set up your email, Slack, and system access
+- Meet with your manager for role overview and expectations
+
+Day 2-5 - Initial Training
+- Complete mandatory compliance training modules (4 hours)
+- Shadow team members to understand workflows
+- Set up 1-on-1 meetings with key stakeholders
+- Review team documentation and processes
+- Begin accessing systems and tools needed for your role
+
+WEEK 2-4: INTEGRATION
+
+Training and Development
+- Complete department-specific training
+- Attend team meetings and stand-ups
+- Begin working on starter projects with guidance
+- Schedule coffee chats with cross-functional team members
+- Complete product knowledge training
+
+30-Day Check-in
+- Meet with HR for benefits questions and onboarding feedback
+- First check-in with manager on progress and questions
+- Ensure all compliance training is completed
+- Confirm access to all necessary systems
+
+REQUIRED DOCUMENTATION
+Please bring the following on your first day:
+- Government-issued photo ID (driver's license or passport)
+- Social Security card or birth certificate
+- Void check or bank routing information for direct deposit
+- Emergency contact information
+
+FIRST WEEK CHECKLIST
+□ Complete I-9 employment eligibility verification
+□ Enroll in benefits (medical, dental, vision, 401k)
+□ Set up direct deposit
+□ Complete tax withholding forms (W-4)
+□ Review and sign employee handbook acknowledgment
+□ Complete compliance training (anti-harassment, data security, code of conduct)
+□ Receive company laptop, badge, and equipment
+□ Set up email signature and Slack profile
+□ Join relevant Slack channels and team meetings
+□ Schedule recurring 1-on-1 with manager
+
+COMPANY RESOURCES
+- HR Portal: hr.company.com - For benefits, PTO requests, and policies
+- Learning Management System: learn.company.com - For training courses
+- Employee Directory: directory.company.com - Find colleagues and org chart
+- IT Support: support@company.com or Slack #it-help
+- HR Support: hr@company.com or Slack #hr-support
+
+WORKPLACE CULTURE
+Our company values collaboration, innovation, and work-life balance. We encourage:
+- Open communication and feedback
+- Continuous learning and development
+- Diversity and inclusion
+- Flexible work arrangements
+- Employee recognition and appreciation
+
+COMMON QUESTIONS
+
+Q: When do I get paid?
+A: Employees are paid bi-weekly on Fridays. Your first paycheck will be processed on the next pay cycle after your start date.
+
+Q: How do I request time off?
+A: Submit PTO requests through the HR portal at least 2 weeks in advance.
+
+Q: What are the working hours?
+A: Core hours are 9 AM - 5 PM. Many teams offer flexible start/end times. Discuss with your manager.
+
+Q: Where do I park?
+A: Employee parking is available in the garage. Your badge provides access. Visitor parking is in the front lot.
+
+Q: What if I'm sick?
+A: Notify your manager as early as possible. Submit sick leave through the HR portal.
+
+PROBATIONARY PERIOD
+The first 90 days constitute a probationary period during which performance is closely evaluated. At the end of this period, you'll have a formal review with your manager.
+
+We're excited to have you on the team! If you have any questions during onboarding, don't hesitate to reach out to HR or your manager.
+
+MONTH 2-3: BUILDING MOMENTUM
+
+60-Day Milestone
+By day 60, you should be:
+- Independently managing assigned tasks and projects
+- Contributing actively in team meetings
+- Understanding your role's impact on company goals
+- Building relationships across departments
+- Identifying areas for improvement or innovation
+- Comfortable with all core tools and systems
+
+Manager Check-in Topics:
+- Progress on initial goals and objectives
+- Clarity on role responsibilities and expectations
+- Training needs or skill gaps
+- Team integration and collaboration
+- Workload and work-life balance
+- Career development interests
+
+90-Day Performance Review
+Your 90-day review will assess:
+- Technical competency and job knowledge
+- Quality and timeliness of work
+- Communication and collaboration skills
+- Alignment with company values
+- Initiative and problem-solving abilities
+- Attendance and punctuality
+
+Successful completion of the probationary period results in:
+- Confirmation of employment status
+- Eligibility for performance bonuses (if applicable)
+- Full access to all employee programs
+- Consideration for additional responsibilities
+
+EQUIPMENT AND TECHNOLOGY SETUP
+
+Standard Equipment Package:
+- Company laptop (MacBook or Windows based on role)
+- External monitor, keyboard, and mouse (if requested)
+- Headset for video calls
+- Laptop bag or backpack
+- Mobile phone (for applicable roles)
+- Ergonomic desk accessories (if needed)
+
+Software and Access:
+Your IT account will include access to:
+- Email and calendar (Outlook/Gmail)
+- Communication platforms (Slack, Microsoft Teams)
+- File storage (Google Drive, SharePoint)
+- Project management tools (Jira, Asana, Monday.com)
+- Video conferencing (Zoom, Google Meet)
+- Department-specific applications
+- VPN for remote access
+- Password manager (1Password, LastPass)
+
+IT Security Requirements:
+- Set strong passwords (12+ characters, mixed case, numbers, symbols)
+- Enable two-factor authentication on all accounts
+- Install and maintain company security software
+- Encrypt sensitive data
+- Never share login credentials
+- Report suspicious emails to IT security
+- Keep software and operating system updated
+- Use VPN when working remotely on public networks
+- Lock your computer when stepping away
+
+BUILDING SETUP AND FACILITIES
+
+Office Layout and Navigation:
+- Floor 1: Reception, HR Department, Conference Rooms A-D
+- Floor 2: Engineering, Product, IT Support, Break Room
+- Floor 3: Sales, Marketing, Customer Success, Executive Offices
+- Floor 4: Finance, Legal, Cafeteria, Wellness Room
+- Basement: Gym, Bike Storage, Additional Parking
+
+Badge Access:
+Your employee badge provides:
+- Building entry (front and side entrances)
+- Parking garage access
+- Floor access to your assigned work areas
+- Conference room booking
+- Printer and copier access
+- Vending machine payments (add funds in HR portal)
+
+Lost or forgotten badge? Report to security desk for temporary access.
+
+Amenities and Services:
+- Cafeteria: Open 7 AM - 3 PM, subsidized meals
+- Coffee stations: Each floor, complimentary coffee and tea
+- Gym: 24/7 access for employees, showers available
+- Wellness room: Private space for nursing mothers, quiet time
+- Bike storage: Secure indoor parking, repair station
+- Game room: Ping pong, foosball, gaming consoles
+- Library: Books, quiet workspace, meditation space
+
+COMMUNICATION CHANNELS AND ETIQUETTE
+
+Slack Guidelines:
+- Set your status when away, in meetings, or on PTO
+- Use threads to keep conversations organized
+- @mention only when you need someone's immediate attention
+- Use channels for team communication, DMs for private matters
+- Keep #general for company-wide announcements only
+- Mute channels that aren't relevant to your work
+- Respect do-not-disturb hours (typically 6 PM - 8 AM)
+
+Email Best Practices:
+- Check email at least twice daily during business hours
+- Respond to urgent requests within 4 hours
+- Use clear, descriptive subject lines
+- Include relevant stakeholders in CC
+- Set out-of-office replies when on PTO
+- Keep messages professional and concise
+- Use calendar invites for all meetings
+
+Meeting Culture:
+- Arrive on time (or 2 minutes early for video calls)
+- Send agendas in advance when hosting
+- Take notes and share action items afterward
+- Mute when not speaking on large calls
+- Turn on video for small team meetings when possible
+- Respect meeting-free focus time (typically 9-11 AM)
+- Decline meetings you don't need to attend
+
+PERFORMANCE EXPECTATIONS AND GOALS
+
+Goal Setting Framework:
+We use the OKR (Objectives and Key Results) methodology:
+- Objectives: Qualitative goals that inspire and challenge
+- Key Results: Quantitative metrics that measure success
+- Quarterly planning cycles with monthly check-ins
+- Individual goals aligned with team and company objectives
+
+Example OKR Structure:
+Objective: Improve customer onboarding experience
+- Key Result 1: Reduce time-to-first-value from 14 to 7 days
+- Key Result 2: Increase onboarding completion rate to 90%
+- Key Result 3: Achieve NPS score of 50+ for new customers
+
+Your First Quarter Goals:
+Your manager will work with you to set realistic 90-day goals that focus on:
+- Learning and development
+- Building key relationships
+- Delivering initial projects
+- Understanding company processes
+- Demonstrating core competencies
+
+Performance Metrics:
+Depending on your role, performance may be measured by:
+- Project completion and quality
+- Customer satisfaction scores
+- Sales or revenue targets
+- Code commits and reviews (engineering)
+- Campaign performance (marketing)
+- Response times (support)
+- Team collaboration feedback
+
+PROFESSIONAL DEVELOPMENT OPPORTUNITIES
+
+Internal Training Programs:
+- New Manager Training: For first-time managers
+- Leadership Development: Executive coaching and workshops
+- Technical Certifications: Company-sponsored exam fees
+- Lunch and Learn Sessions: Weekly skill-sharing presentations
+- Mentorship Program: Paired with senior employees
+- Career Pathing Workshops: Quarterly sessions with HR
+
+External Development:
+- Conference attendance (up to 2 per year with approval)
+- Online course subscriptions (Coursera, LinkedIn Learning, Udemy)
+- Professional association memberships
+- Industry certification programs
+- Speaker opportunities at industry events
+- Tuition reimbursement for degree programs ($5,000/year)
+
+Knowledge Sharing:
+We encourage employees to:
+- Present at internal lunch-and-learns
+- Write technical blog posts
+- Contribute to open-source projects (with approval)
+- Mentor junior team members
+- Lead working groups or committees
+- Share learnings from conferences and courses
+
+DIVERSITY, EQUITY, AND INCLUSION
+
+Our Commitment:
+We are committed to building a diverse, equitable, and inclusive workplace where all employees feel valued, respected, and empowered to do their best work.
+
+Employee Resource Groups (ERGs):
+- Women in Tech: Supporting and advancing women in technology roles
+- Pride Alliance: LGBTQ+ employees and allies
+- Black Excellence Network: Celebrating and supporting Black employees
+- LatinX Connect: Building community for Hispanic/Latino employees
+- Veterans Network: Supporting military veterans and families
+- Parents and Caregivers: Resources for working parents
+- Accessibility Advocates: Promoting inclusive design and policies
+
+All employees are welcome to join any ERG. Groups meet monthly and organize events, mentorship, and advocacy initiatives.
+
+Inclusive Language:
+We ask all employees to:
+- Use people's correct names and pronouns
+- Avoid gendered language (use "team" instead of "guys")
+- Be mindful of cultural differences and holidays
+- Speak up if you witness exclusionary behavior
+- Participate in unconscious bias training
+
+HEALTH, WELLNESS, AND WORK-LIFE BALANCE
+
+Mental Health Resources:
+- Employee Assistance Program (EAP): 6 free counseling sessions
+- Mental health days: Can use sick leave for mental health
+- Mindfulness app subscriptions (Calm, Headspace)
+- Stress management workshops
+- Quiet spaces for meditation or decompression
+
+Physical Wellness:
+- Annual health screenings and flu shots
+- Gym membership reimbursement ($50/month)
+- Standing desks available upon request
+- Walk-and-talk meeting encouragement
+- Company sports teams and fitness challenges
+- Healthy snacks and beverages provided
+
+Work-Life Balance:
+- Flexible work hours (discuss with manager)
+- Remote work options (up to 3 days/week)
+- No expectation to respond to emails outside work hours
+- Generous PTO policy (15 days + 10 sick days + holidays)
+- Sabbatical program (eligible after 5 years)
+- Half-day Fridays in summer months
+
+COMPENSATION AND BENEFITS OVERVIEW
+
+Salary and Payroll:
+- Bi-weekly pay schedule (every other Friday)
+- Direct deposit required (set up in HR portal)
+- Pay stubs available online through payroll system
+- Annual salary reviews in Q4
+- Performance bonuses (if applicable to role)
+- Overtime pay for non-exempt employees
+
+Health Benefits (effective first day of month after hire date):
+- Medical insurance: 80% employer-paid for employee, 60% for dependents
+- Dental insurance: 100% employer-paid for employee
+- Vision insurance: Available with employee contribution
+- HSA/FSA options for medical and dependent care expenses
+- Life insurance: 2x annual salary at no cost
+- Disability insurance: Short-term and long-term coverage
+
+Retirement Benefits:
+- 401(k) plan with immediate enrollment eligibility
+- Company match: 100% of first 3%, 50% of next 2% (up to 5% total match)
+- Vesting schedule: Immediate vesting of all contributions
+- Annual contribution limits: $23,000 (2024) or $30,500 if 50+
+- Roth 401(k) option available
+- Financial planning resources and tools
+
+Additional Perks:
+- Commuter benefits: Pre-tax transit and parking
+- Cell phone stipend: $50/month for eligible roles
+- Home office stipend: $500 one-time for remote employees
+- Professional development budget: $2,000/year
+- Company equity/stock options (for eligible roles)
+- Employee discount program
+- Free snacks, beverages, and catered lunches (Wednesdays)
+- Birthday and work anniversary celebrations
+
+CAREER GROWTH AND ADVANCEMENT
+
+Career Ladder Framework:
+Each department has defined career levels with clear expectations:
+- Entry Level (I): Learning role fundamentals, guided work
+- Mid Level (II): Independent execution, mentoring juniors
+- Senior Level (III): Leading projects, influencing strategy
+- Lead/Staff Level (IV): Organizational impact, thought leadership
+- Principal/Director Level (V): Setting vision, cross-functional leadership
+
+Promotion Process:
+- Promotions typically occur during annual review cycle
+- Based on demonstrated performance at next level for 6+ months
+- Requires manager nomination and peer feedback
+- Must meet technical and leadership criteria for new level
+- Salary adjustments accompany promotions
+
+Internal Mobility:
+We encourage internal career movement:
+- Internal job postings shared company-wide
+- Employees can apply after 12 months in current role
+- Informational interviews encouraged
+- Internal transfers prioritized over external hires
+- Must have manager conversation before applying
+- Transfer requires current manager approval
+
+Welcome aboard! We're thrilled to have you as part of our team.
