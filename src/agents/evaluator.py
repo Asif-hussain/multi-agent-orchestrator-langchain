@@ -197,40 +197,45 @@ Please provide your evaluation:""")
         """
         try:
             # Log overall score
-            self.langfuse.score(
+            self.langfuse.create_score(
                 trace_id=trace_id,
                 name="overall_quality",
                 value=evaluation.overall_score,
-                comment=evaluation.feedback
+                comment=evaluation.feedback,
+                data_type="NUMERIC"
             )
 
             # Log individual dimension scores
-            self.langfuse.score(
+            self.langfuse.create_score(
                 trace_id=trace_id,
                 name="relevance",
                 value=evaluation.relevance_score,
-                comment=f"Relevance assessment"
+                comment="Relevance assessment",
+                data_type="NUMERIC"
             )
 
-            self.langfuse.score(
+            self.langfuse.create_score(
                 trace_id=trace_id,
                 name="completeness",
                 value=evaluation.completeness_score,
-                comment=f"Completeness assessment"
+                comment="Completeness assessment",
+                data_type="NUMERIC"
             )
 
-            self.langfuse.score(
+            self.langfuse.create_score(
                 trace_id=trace_id,
                 name="accuracy",
                 value=evaluation.accuracy_score,
-                comment=f"Accuracy assessment"
+                comment="Accuracy assessment",
+                data_type="NUMERIC"
             )
 
-            self.langfuse.score(
+            self.langfuse.create_score(
                 trace_id=trace_id,
                 name="clarity",
                 value=evaluation.clarity_score,
-                comment=f"Clarity assessment"
+                comment="Clarity assessment",
+                data_type="NUMERIC"
             )
 
             # Flush to ensure data is sent
@@ -251,11 +256,12 @@ Please provide your evaluation:""")
             observation_id: Langfuse observation ID to associate scores with
         """
         try:
-            self.langfuse.score(
+            self.langfuse.create_score(
                 observation_id=observation_id,
                 name="overall_quality",
                 value=evaluation.overall_score,
-                comment=evaluation.feedback
+                comment=evaluation.feedback,
+                data_type="NUMERIC"
             )
             print(f"[Evaluator] Scores logged to Langfuse (observation_id: {observation_id})")
         except Exception as e:
@@ -265,63 +271,17 @@ Please provide your evaluation:""")
         """
         Create standalone score event in Langfuse.
 
+        Since we don't have a trace_id, scores won't be visible in the Scores tab.
+        This is a limitation - scores must be associated with a trace to appear.
+
         Args:
             evaluation: The quality evaluation
             query: The query being evaluated
         """
-        try:
-            import uuid
-
-            # Generate a unique trace ID
-            trace_id = str(uuid.uuid4())
-
-            # Create trace using the correct API
-            self.langfuse.trace(
-                id=trace_id,
-                name="evaluation",
-                input={"query": query},
-                metadata={"type": "quality_evaluation"}
-            )
-
-            # Log scores to the trace
-            self.langfuse.score(
-                trace_id=trace_id,
-                name="overall_quality",
-                value=evaluation.overall_score,
-                comment=evaluation.feedback
-            )
-
-            self.langfuse.score(
-                trace_id=trace_id,
-                name="relevance",
-                value=evaluation.relevance_score
-            )
-
-            self.langfuse.score(
-                trace_id=trace_id,
-                name="completeness",
-                value=evaluation.completeness_score
-            )
-
-            self.langfuse.score(
-                trace_id=trace_id,
-                name="accuracy",
-                value=evaluation.accuracy_score
-            )
-
-            self.langfuse.score(
-                trace_id=trace_id,
-                name="clarity",
-                value=evaluation.clarity_score
-            )
-
-            # Flush to ensure data is sent
-            self.langfuse.flush()
-            print(f"[Evaluator] Scores logged to Langfuse as standalone trace (ID: {trace_id})")
-        except Exception as e:
-            print(f"[Evaluator] Warning: Failed to create standalone score: {e}")
-            import traceback
-            traceback.print_exc()
+        print(f"[Evaluator] Warning: Cannot log scores without trace_id.")
+        print(f"[Evaluator] Scores will not appear in Langfuse dashboard.")
+        print(f"[Evaluator] To fix: Pass trace_id when calling evaluate_response().")
+        print(f"[Evaluator] Scores calculated: Overall={evaluation.overall_score}/10")
 
     def evaluate_and_log(
         self,

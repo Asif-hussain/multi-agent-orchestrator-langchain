@@ -177,9 +177,9 @@ Analyze the user's query carefully and determine which department is best suited
 
         result = self.route_query(query)
 
-        # Capture trace ID if langfuse_handler is available
-        if self.langfuse_handler and hasattr(self.langfuse_handler, 'get_trace_id'):
-            result['trace_id'] = self.langfuse_handler.get_trace_id()
+        # Capture trace ID from langfuse_handler
+        if self.langfuse_handler and hasattr(self.langfuse_handler, 'last_trace_id'):
+            result['trace_id'] = self.langfuse_handler.last_trace_id
 
         if verbose:
             print("\n" + "-" * 80)

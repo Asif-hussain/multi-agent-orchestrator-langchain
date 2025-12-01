@@ -106,11 +106,43 @@ The `test_queries.json` file contains 15 test queries covering different departm
 
 ## Configuration
 
-Key parameters in agent files:
-- Chunk size: 1000 characters
-- Chunk overlap: 200 characters
-- Top-k retrieval: 4 documents
-- Temperature: 0.0 for classification, 0.1 for generation
+All system configuration is managed through environment variables in the `.env` file. This allows you to change behavior without modifying code.
+
+### Required Settings
+
+```bash
+# OpenRouter API Key
+OPENROUTER_API_KEY=your-key-here
+
+# Langfuse Keys (for observability)
+LANGFUSE_PUBLIC_KEY=your-public-key
+LANGFUSE_SECRET_KEY=your-secret-key
+LANGFUSE_HOST=https://cloud.langfuse.com
+```
+
+### Optional Settings
+
+Customize these in `.env` (defaults shown):
+
+```bash
+# Models
+EMBEDDING_MODEL=openai/text-embedding-3-small
+LLM_MODEL=gpt-3.5-turbo
+EVALUATOR_MODEL=gpt-3.5-turbo
+
+# RAG Parameters
+CHUNK_SIZE=1000              # Document chunk size
+CHUNK_OVERLAP=200            # Overlap between chunks
+RETRIEVAL_K=4                # Number of chunks to retrieve
+
+# Model Behavior
+TEMPERATURE=0.1              # Response randomness (0.0-2.0)
+
+# Logging
+LOG_LEVEL=INFO              # DEBUG, INFO, WARNING, ERROR, CRITICAL
+```
+
+See `.env.example` for complete documentation with recommendations and cost estimates.
 
 ## Technical Decisions
 
